@@ -1,203 +1,83 @@
-🧩 LeetCode Solutions: Complexity Analysis
-🟢 Easy Problems
-Problem	Language	Time	Space	Approach
-Two Sum	C	
-	
-	Hash Map (One-pass)
-Add Binary	Java	
-	
-	Bit-by-bit addition with carry
-Add Digits	Java	
-	
-	Digital Root (Mathematical formula)
-Best Time to Buy/Sell Stock	Java	
-	
-	One-pass (Min price tracking)
-Binary Tree Inorder	Java	
-	
-	DFS (Recursive)
-Binary Tree Postorder	Java	
-	
-	DFS (Recursive)
-Binary Tree Preorder	Java	
-	
-	DFS (Recursive)
-Climbing Stairs	Java	
-	
-	Fibonacci / DP (Space optimized)
-Sorted Array to BST	Java	
-	
-	Binary Search / Recursive construction
-Count Complete Tree Nodes	Java	
-	
-	DFS / Level Order Traversal
-Counting Bits	Java	
-	
-	Dynamic Programming (P-pattern)
-Find the Difference	Java	
-	
-	Bit Manipulation (XOR)
-First Occurrence in String	Java	
-	
-	Sliding Window / Two-pointer
-Happy Number	C	
-	
-	Floyd’s Cycle-finding (Tortoise/Hare)
-Implement Stack using Queues	Java	
-	
-	Two-Queue simulation
-Intersection of Two Arrays	Java	
-	
-	HashSet / Two-pointer
-Length of Last Word	Java	
-	
-	String trimming / Backward scan
-Longest Common Prefix	Java	
-	
-	Horizontal scanning
-Longest Palindrome	Java	
-	
-	Character frequency (Hash Table)
-Majority Element	Java	
-	
-	Boyer-Moore Voting Algorithm
-Merge Sorted Array	Java	
-	
-	Three-pointer (Backwards merge)
-Merge Two Sorted Lists	Java	
-	
-	Iterative Pointer Manipulation
-Min Depth of Binary Tree	Java	
-	
-	BFS / Level Order Traversal
-Number of 1 Bits	C	
-	
-	Bit Manipulation (Kernighan’s)
-Palindrome Linked List	Java	
-	
-	Reverse second half + Two-pointer
-Palindrome Number	Java	
-	
-	Reversing half of the integer
-Power of Two	Java	
-	
-	Bitwise AND check: (n & n-1)
-Remove Duplicates (Array)	Java	
-	
-	Two-pointer (In-place)
-Remove Duplicates (List)	Java	
-	
-	Linear scan / Node skipping
-Remove Element	Java	
-	
-	Two-pointer (In-place)
-Remove Linked List Elements	Java	
-	
-	Sentinel (Dummy) node iteration
-Reverse Bits	C	
-	
-	Bit shifting and masking
-Reverse Linked List	Java	
-	
-	Iterative pointer reversal
-Reverse String	Python	
-	
-	Two-pointer swap
-Roman to Integer	Java	
-	
-	Left-to-right map-based scanning
-Search Insert Position	Java	
-	
-	Binary Search
-Single Number	C	
-	
-	Bit Manipulation (XOR)
-Sqrt(x)	Java	
-	
-	Binary Search
-Sum of Left Leaves	Java	
-	
-	DFS with flag check
-Valid Anagram	Java	
-	
-	Frequency Array (Hash Table)
-Valid Palindrome	Java	
-	
-	Two-pointer / String cleanup
-Valid Parentheses	Java	
-	
-	Stack-based character matching
-🟡 Medium Problems
-Problem	Language	Time	Space	Approach
-Add Two Numbers	Java	
-	
-	Linked List traversal with carry
-Best Time Buy Stock II	Java	
-	
-	Greedy (Sum of all uphill profits)
-Count and Say	Java	
-	
-	Iterative string building
-Edit Distance	Java	
-	
-	Dynamic Programming (2D table)
-First/Last Pos in Array	Java	
-	
-	Modified Binary Search (Twice)
-Integer to Roman	Java	
-	
-	Greedy subtraction (Greedy Map)
-Jump Game II	Java	
-	
-	Greedy (Max reach/Range jumping)
-Linked List Cycle	Java	
-	
-	Floyd’s Cycle-finding (Two-pointer)
-Longest Palindromic Substr	Java	
-	
-	Expand Around Center
-Longest Substring...	Java	
-	
-	Sliding Window with HashSet
-Remove Nth Node...	Java	
-	
-	Two-pointer (Fast/Slow offset)
-Reverse Integer	Java	
-	
-	Digit extraction with overflow check
-Rotate List	Java	
-	
-	Cycle formation + Head update
-Search a 2D Matrix	Java	
-	
-	Binary Search on flattened index
-String to Integer (atoi)	Java	
-	
-	DFA / Character-by-character scan
-Swap Nodes in Pairs	Java	
-	
-	Recursive/Iterative node swapping
-Zigzag Conversion	Java	
-	
-	Row-wise string list building
-🔴 Hard Problems
-Problem	Language	Time	Space	Approach
-Median of Two Arrays	Java	
-	
-	Binary search on shorter partition
-Regular Expression Match	Java	
-	
-	2D Dynamic Programming
-Merge k Sorted Lists	Java	
-	
-	Min-Priority Queue (Heap)
-Substring Concatenation	Java	
-	
-	Sliding Window with Map count
-First Missing Positive	Java	
-	
-	Cyclic Sort (In-place hashing)
-🛠️ Tech Stack
+# 🧩 LeetCode Solutions: Complexity Analysis
 
-    Languages: Java, C, Python
-    Tools: Git, GitHub, LeetCode
+## 🟢 Easy Problems
+
+
+| Problem | Language | Time | Space | Approach |
+| :--- | :--- | :--- | :--- | :--- |
+| Two Sum | C | O(n) | O(n) | Hash Map (One-pass) |
+| Add Binary | Java | O(max(N, M)) | O(max(N, M)) | Bit-by-bit addition with carry |
+| Add Digits | Java | O(1) | O(1) | Digital Root (Mathematical formula) |
+| Best Time to Buy/Sell Stock | Java | O(n) | O(1) | One-pass (Min price tracking) |
+| Binary Tree Inorder | Java | O(n) | O(h) | DFS (Recursive) |
+| Binary Tree Postorder | Java | O(n) | O(h) | DFS (Recursive) |
+| Binary Tree Preorder | Java | O(n) | O(h) | DFS (Recursive) |
+| Climbing Stairs | Java | O(n) | O(1) | Fibonacci / DP (Space optimized) |
+| Sorted Array to BST | Java | O(n) | O(log n) | Binary Search / Recursive construction |
+| Count Complete Tree Nodes | Java | O(n) | O(h) | DFS / Level Order Traversal |
+| Counting Bits | Java | O(n) | O(n) | Dynamic Programming (P-pattern) |
+| Find the Difference | Java | O(n) | O(1) | Bit Manipulation (XOR) |
+| First Occurrence in String | Java | O(n * m) | O(1) | Sliding Window / Two-pointer |
+| Happy Number | C | O(log n) | O(1) | Floyd’s Cycle-finding (Tortoise/Hare) |
+| Implement Stack using Queues | Java | O(1) | O(n) | Two-Queue simulation |
+| Intersection of Two Arrays | Java | O(n+m) | O(n) | HashSet / Two-pointer |
+| Length of Last Word | Java | O(n) | O(1) | String trimming / Backward scan |
+| Longest Common Prefix | Java | O(S) | O(1) | Horizontal scanning |
+| Longest Palindrome | Java | O(n) | O(1) | Character frequency (Hash Table) |
+| Majority Element | Java | O(n) | O(1) | Boyer-Moore Voting Algorithm |
+| Merge Sorted Array | Java | O(n+m) | O(1) | Three-pointer (Backwards merge) |
+| Merge Two Sorted Lists | Java | O(n+m) | O(1) | Iterative Pointer Manipulation |
+| Min Depth of Binary Tree | Java | O(n) | O(h) | BFS / Level Order Traversal |
+| Number of 1 Bits | C | O(1) | O(1) | Bit Manipulation (Kernighan’s) |
+| Palindrome Linked List | Java | O(n) | O(1) | Reverse second half + Two-pointer |
+| Palindrome Number | Java | O(log n) | O(1) | Reversing half of the integer |
+| Power of Two | Java | O(1) | O(1) | Bitwise AND check: (n & n-1) |
+| Remove Duplicates (Array) | Java | O(n) | O(1) | Two-pointer (In-place) |
+| Remove Duplicates (List) | Java | O(n) | O(1) | Linear scan / Node skipping |
+| Remove Element | Java | O(n) | O(1) | Two-pointer (In-place) |
+| Remove Linked List Elements | Java | O(n) | O(1) | Sentinel (Dummy) node iteration |
+| Reverse Bits | C | O(1) | O(1) | Bit shifting and masking |
+| Reverse Linked List | Java | O(n) | O(1) | Iterative pointer reversal |
+| Reverse String | Python | O(n) | O(1) | Two-pointer swap |
+| Roman to Integer | Java | O(n) | O(1) | Left-to-right map-based scanning |
+| Search Insert Position | Java | O(log n) | O(1) | Binary Search |
+| Single Number | C | O(n) | O(1) | Bit Manipulation (XOR) |
+| Sqrt(x) | Java | O(log n) | O(1) | Binary Search |
+| Sum of Left Leaves | Java | O(n) | O(h) | DFS with flag check |
+| Valid Anagram | Java | O(n) | O(1) | Frequency Array (Hash Table) |
+| Valid Palindrome | Java | O(n) | O(1) | Two-pointer / String cleanup |
+| Valid Parentheses | Java | O(n) | O(n) | Stack-based character matching |
+
+## 🟡 Medium Problems
+
+
+| Problem | Language | Time | Space | Approach |
+| :--- | :--- | :--- | :--- | :--- |
+| Add Two Numbers | Java | O(max(m,n)) | O(1) | Linked List traversal with carry |
+| Best Time Buy Stock II | Java | O(n) | O(1) | Greedy (Sum of all uphill profits) |
+| Count and Say | Java | O(2^n) | O(2^n) | Iterative string building |
+| Edit Distance | Java | O(m * n) | O(m * n) | Dynamic Programming (2D table) |
+| First/Last Pos in Array | Java | O(log n) | O(1) | Modified Binary Search (Twice) |
+| Integer to Roman | Java | O(1) | O(1) | Greedy subtraction (Greedy Map) |
+| Jump Game II | Java | O(n) | O(1) | Greedy (Max reach/Range jumping) |
+| Linked List Cycle | Java | O(n) | O(1) | Floyd’s Cycle-finding (Two-pointer) |
+| Longest Palindromic Substr | Java | O(n^2) | O(1) | Expand Around Center |
+| Longest Substring... | Java | O(n) | O(min(m, n)) | Sliding Window with HashSet |
+| Remove Nth Node... | Java | O(L) | O(1) | Two-pointer (Fast/Slow offset) |
+| Reverse Integer | Java | O(log n) | O(1) | Digit extraction with overflow check |
+| Rotate List | Java | O(n) | O(1) | Cycle formation + Head update |
+| Search a 2D Matrix | Java | O(log(m * n)) | O(1) | Binary Search on flattened index |
+| String to Integer (atoi) | Java | O(n) | O(1) | DFA / Character-by-character scan |
+| Swap Nodes in Pairs | Java | O(n) | O(1) | Recursive/Iterative node swapping |
+| Zigzag Conversion | Java | O(n) | O(n) | Row-wise string list building |
+
+## 🔴 Hard Problems
+
+
+| Problem | Language | Time | Space | Approach |
+| :--- | :--- | :--- | :--- | :--- |
+| Median of Two Arrays | Java | O(log(min(m,n))) | O(1) | Binary search on shorter partition |
+| Regular Expression Match | Java | O(T * P) | O(T * P) | 2D Dynamic Programming |
+| Merge k Sorted Lists | Java | O(N log k) | O(k) | Min-Priority Queue (Heap) |
+| Substring Concatenation | Java | O(n * k) | O(n) | Sliding Window with Map count |
+| First Missing Positive | Java | O(n) | O(1) | Cyclic Sort (In-place hashing) |
